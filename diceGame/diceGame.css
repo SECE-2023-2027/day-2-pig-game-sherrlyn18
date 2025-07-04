@@ -4,7 +4,7 @@
 }
 body{
     background: #000;
-    background: linear-gradient(to bottom right, #ff0055, #a100ff);
+    background: linear-gradient(to bottom right, #ff4d88, #c062f7);
     height: auto;
     background-repeat: no-repeat;
 
@@ -69,6 +69,7 @@ main{height:550px;
     flex-direction: column;
     /* background: #000; */
     justify-content: space-around;
+    /* gap: 10px; */
     align-items: center;
     position:absolute ;
     top: 85px;
@@ -79,6 +80,12 @@ main{height:550px;
 .dice{
     height: 100px;
     width: 100px;
+    margin-bottom: 10px;
+}
+.newgame , .dice{
+    position: relative;
+    top: 20px;
+    
 }
 
 .newgame,.rolldice,.hold{
@@ -90,8 +97,7 @@ main{height:550px;
     padding: 5px 10px;
     background: rgb(255, 0, 85,0.5);
 }
-.hold{
+.hold,.rolldice{
     position: relative;
     bottom: 30px;
 }
-
