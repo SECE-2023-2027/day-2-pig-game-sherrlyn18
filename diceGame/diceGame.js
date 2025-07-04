@@ -10,7 +10,8 @@ const newGameBtn = document.querySelector('.newgame');
 let scores, currentScore, activePlayer, playing;
 
 const init = () => {
-    scores = [0, 0];
+    score1= 0;
+    score2=0;
     currentScore = 0;
     activePlayer = 0;
     playing = true;
